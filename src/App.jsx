@@ -7,6 +7,7 @@ import MyWorks from "./sreens/works"
 import './styles/reset.css'
 import './styles/index.css'
 import './styles/home.css'
+import "./styles/about.css"
 
 function App() {
 
