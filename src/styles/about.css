@@ -22,11 +22,11 @@
 }
 
 .testing-box {
+    position: relative;
     max-width: 900px;
     width: 100%;
     box-sizing: border-box;
     margin: 10px 0;
-    background-color: red;
 }
 
 .skill-box.first {
@@ -38,8 +38,6 @@
     display: inline-flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    position: relative;
-    background: green;
     margin: 15px 0;
 }
 .skill-box .name {
@@ -56,9 +54,9 @@
     background: rgba(255, 255, 255, 0.27);
 }
 .skill-bar .skill-per {
+    position: relative;
     display: block;
     height: 100%;
-    position: relative;
     width: 90%;
     border-radius: 6px;
     background: #4070f4;
@@ -120,8 +118,8 @@
 
 @media (max-width: 740px) {
     .about-box main {
-        left: 40%;
-        top: 27%;
+        top: 20%;
+        left: 20%;
     }
     .about-box main h1 {
         line-height: 40px;
@@ -131,13 +129,5 @@
     }
     .skill-box {
         width: 90%;
-    }
-}
-
-
-@media (max-width: 430px) {
-    .about-box main {
-        top: 15%;
-        left: 20%;
     }
 }
