@@ -4,13 +4,16 @@ import ContactMe from "./sreens/contact"
 import HomeScreen from "./sreens/home"
 import NavScreen from "./sreens/navbar"
 import MyWorks from "./sreens/works"
+import './styles/reset.css'
+import './styles/index.css'
+import './styles/home.css'
 
 function App() {
 
   return (
-    <div>
+    <div className="parent">
       <NavScreen />
-      <div>
+      <div className="children">
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/about" element={<AboutMe />} />

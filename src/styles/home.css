@@ -1,0 +1,44 @@
+.home-box {
+    background-color: red;
+    padding: 5px 20px;
+}
+
+.home-box main {
+    position: fixed;
+    top: 40%;
+    left: 25%;
+}
+
+.home-box main h1 {
+    font-family: 'DM Serif Display';
+    font-size: 5em;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+.home-box main p {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.home-box footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.home-box footer p {
+    font-size: 5em;
+    text-decoration: underline;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+@media (max-width: 740px) {
+    .home-box main {
+        left: 20%;
+        top: 45%;
+    }
+    .home-box main h1 {
+        font-size: 3em;
+        line-height: 40px;
+    }
+}
