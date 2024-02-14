@@ -39,13 +39,13 @@ function NavScreen() {
       </nav>
       <nav id="navbar-mob">
         <ul>
-          <li>
+          <li onClick={CloseMenu}>
             <NavLink to="/about">About</NavLink>
           </li>
-          <li>
+          <li onClick={CloseMenu}>
             <NavLink to="/works">Portfolio</NavLink>
           </li>
-          <li>
+          <li onClick={CloseMenu}>
             <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
