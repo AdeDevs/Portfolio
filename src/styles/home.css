@@ -1,5 +1,4 @@
 .home-box {
-    background-color: red;
     padding: 5px 20px;
 }
 
@@ -7,6 +6,7 @@
     position: fixed;
     top: 40%;
     left: 25%;
+    overflow: hidden;
 }
 
 .home-box main h1 {
@@ -34,7 +34,7 @@
 
 @media (max-width: 740px) {
     .home-box main {
-        left: 25%;
+        left: 30%;
         top: 45%;
     }
     .home-box main h1 {
