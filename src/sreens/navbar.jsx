@@ -24,7 +24,6 @@ function NavScreen() {
           <NavLink to="/">AdeDevs</NavLink>
         </h1>
         <img id="open-menu" onClick={OpenMenu} src={Menu} alt="" />
-        <img id="close-menu" onClick={CloseMenu} src={Close} alt="" />
         <ul>
           <li>
             <NavLink to="/about">About</NavLink>
@@ -48,6 +47,7 @@ function NavScreen() {
           <li onClick={CloseMenu}>
             <NavLink to="/contact">Contact</NavLink>
           </li>
+        <img id="close-menu" onClick={CloseMenu} src={Close} alt="" />
         </ul>
       </nav>
 

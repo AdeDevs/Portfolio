@@ -7,7 +7,8 @@ function AboutMe() {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore at
             quidem doloremque consequuntur recusandae. Sint incidunt quidem.
           </p>
-        <div className="testing-box">
+          <div>
+             <div className="testing-box">
           <div className="skill-box first">
             <span className="name">HTML</span>
 
@@ -68,6 +69,8 @@ function AboutMe() {
             </div>
           </div>
         </div>
+          </div>
+       
       </main>
       <footer>
         <p>02</p>

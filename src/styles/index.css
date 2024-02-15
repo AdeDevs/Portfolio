@@ -78,6 +78,9 @@ ul {
 #close-menu {
     width: 20px;
     display: none;
+    position: absolute;
+    right: 0;
+    top: 21px;
     margin: 0 0 0px 12px;
 }
 
@@ -86,11 +89,10 @@ ul {
 }
 
 #navbar-mob {
-    height: 100vh;
     position: fixed;
     top: 1px;
     display: none;
-    width: 50%;
+    width: 100%;
     color: #000;
     background-color: #fff;
     box-sizing: border-box;
@@ -103,15 +105,18 @@ ul {
 }
 
 #navbar-mob ul {
-    margin: 50px 0;
+    position: relative;
+    justify-content: center;
+    margin: 0;
     list-style-type: none;
+    display: flex;
     font-family: "Montserrat", sans-serif;
 }
 
 #navbar-mob ul li {
-    padding: 50px 20px;
+    padding: 20px;
     color: #000;
-    margin: 30px 0;
+    margin:  0;
 }
 
 
