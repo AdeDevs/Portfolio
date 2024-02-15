@@ -117,8 +117,10 @@
     .works-box main {
         top: 10%;
         left: 16%;
-        height: 83vh;
-        overflow: scroll;
+    }
+    .works-box main .sites {
+      height: 83vh;
+      overflow-x: scroll;
     }
     .works-box footer p {
         font-size: 2em;
@@ -129,10 +131,18 @@
         height: 80vh;
         left: 18%;
     }
+    .works-box main .sites {
+      height: 80vh;
+      overflow-x: scroll;
+    }
 }
 @media screen and (max-width: 540px) and (min-width: 539px) {
     .works-box main {
-        height: 81vh;
+    }
+
+    .works-box main .sites {
+      height: 81vh;
+      overflow-x: scroll;
     }
     .works-box footer p {
         font-size: 3em;
