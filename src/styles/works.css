@@ -1,5 +1,6 @@
 .works-box {
     padding: 5px 20px;
+    overflow: hidden;
   }
   
  .works-box a {
