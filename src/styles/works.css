@@ -38,14 +38,14 @@
   }
 
   .works-box main .sites div {
-    min-width: 250px;
+    width: 350px;
     border: 2px solid #000;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    margin: 10px;
+    margin: 10px auto;
     box-sizing: border-box;
     border-radius: 10px;
     transition: 400ms;
@@ -100,13 +100,13 @@
 }
 @media screen and (max-width: 450px) and (min-width: 380px) {
     .works-box main {
-        top: 40%;
+        top: 8%;
         left: 15%;
         overflow: scroll;
+        background-color: rebeccapurple;
     }
     .works-box main .sites {
-      display: flex;
-      flex-wrap: nowrap;
+      height: 85vh;
       overflow-x: scroll;
     }
     .works-box footer p{
