@@ -17,7 +17,7 @@ function ContactMe() {
           <textarea required name="message" placeholder="Your message"></textarea>
           <button type="submit">Send</button>
         </form>
-      </main>
+      </main> 
       <footer>
         <p>04</p>
       </footer>
