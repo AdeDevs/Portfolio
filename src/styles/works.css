@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 1040px) and (min-width: 451px) {
     .works-box main {
-        overflow: scroll;
+        overflow: hidden;
         height: 83vh;
         top: 10%;
     }
@@ -103,7 +103,7 @@
     .works-box main {
         top: 8%;
         left: 15%;
-        overflow: scroll;
+        overflow: hidden;
     }
     .works-box main .sites {
       height: 85vh;
