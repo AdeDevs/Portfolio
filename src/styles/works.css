@@ -54,7 +54,7 @@
   .works-box main .sites div:hover {
     cursor: pointer;
     background-color: rgba(128, 128, 128, 0.252);
-    box-shadow: 5px 5px;
+    box-shadow: 7px 7px 5px rgb(65, 65, 65);
   }
 
   .works-box main .sites div h1 {
