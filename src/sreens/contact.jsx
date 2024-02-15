@@ -10,6 +10,7 @@ function ContactMe() {
                     {/* <li><a href="https://bit.ly/3UJB7LY">Lagos, Nigeria</a></li> */}
                 </ul>
             </header>
+            {/* <form target="_blank" action="https://submit-form.com/kIrRwF3Od" method="POST"> */}
         <form target="_blank" action="https://formsubmit.co/adeyemiakinyemi01@gmail.com" method="POST">
           <input type="email" name="email"  required placeholder="Your Email" />
           <input id="name" type="text" name="name" required placeholder="Your Name" />
