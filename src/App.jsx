@@ -9,6 +9,7 @@ import './styles/index.css'
 import './styles/home.css'
 import "./styles/about.css"
 import "./styles/contact.css"
+import "./styles/works.css"
 
 function App() {
 

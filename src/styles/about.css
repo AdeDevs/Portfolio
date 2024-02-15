@@ -2,6 +2,11 @@
   padding: 5px 20px;
 }
 
+.about-box a {
+  color: gray;
+  text-decoration: underline 0.15em grey;
+}
+ 
 .about-box main {
   position: fixed;
   top: 27%;
@@ -18,7 +23,7 @@
 .about-box main p {
   font-family: "Poppins", sans-serif;
   font-size: 0.8em;
-  width: 55%;
+  width: 100%;
 }
 
 .testing-box {

@@ -4,8 +4,9 @@ function AboutMe() {
       <main>
       <h1>i am a frontend developer</h1>
           <p>
-            I am Adeyemi Akinyemi and below and below is my repotoire with a visual representation of my mastery of each language
+          I Am Adeyemi Akinyemi, An Entry-Level Professional Frontend Developer With Grad Certificate From <a href="https://www.altschoolafrica.com/">AltSchool Africa</a>.
           </p>
+          <p>What I Listen To To Focus <a href="https://open.spotify.com/playlist/6CNpxaOXFVx54uu9RFKqkF?si=2dcea732914847e9">Spotify</a> </p>
           <div>
              <div className="testing-box">
           <div className="skill-box first">
