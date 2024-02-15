@@ -1,196 +1,214 @@
 .about-box {
-    padding: 5px 20px;
+  padding: 5px 20px;
 }
 
 .about-box main {
-    position: fixed;
-    top: 27%;
-    left: 25%;
-    overflow: hidden;
+  position: fixed;
+  top: 27%;
+  left: 25%;
+  overflow: hidden;
 }
 
 .about-box main h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2em;
-    text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
 .about-box main p {
-    font-family: "Poppins", sans-serif;
-    font-size: .8em;
-    width: 55%;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+  width: 55%;
 }
 
 .testing-box {
-    position: relative;
-    max-width: 900px;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 10px 0;
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0;
 }
 
 .skill-box.first {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .skill-box {
-    width: 100%;
-    display: inline-flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin: 15px 0;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 15px 0;
 }
 .skill-box .name {
-    display: block;
-    font-size: 10px;
-    font-family: "Poppins", sans-serif;
-    color: #000;
+  display: block;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
 }
 .skill-box .skill-bar {
-    height: 5px;
-    width: 80%;
-    border-radius: 6px;
-    margin-top: 6px;
-    background: rgba(255, 255, 255, 0.27);
+  height: 5px;
+  width: 80%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(255, 255, 255, 0.27);
 }
 .skill-bar .skill-per {
-    position: relative;
-    display: block;
-    height: 100%;
-    width: 90%;
-    border-radius: 6px;
-    background: #4070f4;
-    animation: progress 0.4s ease-in-out forwards;
-    opacity: 0;
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  border-radius: 6px;
+  background: #4070f4;
+  animation: progress 0.4s ease-in-out forwards;
+  opacity: 0;
 }
 
 .skill-per.css {
-    width: 80%;
-    animation-delay: 0.2s;
+  width: 80%;
+  animation-delay: 0.2s;
 }
 .skill-per.javascript {
-    width: 79%;
-    animation-delay: 0.3s;
+  width: 79%;
+  animation-delay: 0.3s;
 }
 .skill-per.react {
-    width: 69%;
-    animation-delay: 0.4s;
+  width: 69%;
+  animation-delay: 0.4s;
 }
 .skill-per.vue {
-    width: 50%;
-    animation-delay: 0.4s;
+  width: 50%;
+  animation-delay: 0.4s;
 }
 .skill-per.typescript {
-    width: 20%;
+  width: 20%;
 }
 @keyframes progress {
-    0% {
-        width: 0;
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .skill-per .tooltip {
-    position: absolute;
-    left: 0;
-    top: -28px;
-    font-size: 9px;
-    font-weight: 500;
-    color: #fff;
-    padding: 2px 6px;
-    border-radius: 3px;
-    background-color: #000;
+  position: absolute;
+  left: 0;
+  top: -28px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background-color: #000;
 }
 
 .about-box footer {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .about-box footer p {
-    font-size: 5em;
-    text-decoration: underline;
-    font-family: 'Chakra Petch', sans-serif;
+  font-size: 5em;
+  text-decoration: underline;
+  font-family: "Chakra Petch", sans-serif;
 }
 
-
 @media screen and (max-width: 1024px) and (min-width: 700px) {
-    .about-box main {
-        top: 27%;
-        left: 20%;
-    }
-    .about-box main h1 {
-        line-height: 40px;
-    }
-    .about-box main p {
-        width: 90%;
-    }
-    .skill-box {
-        width: 90%;
-    }
+  .about-box main {
+    top: 27%;
+    left: 20%;
+  }
+  .about-box main h1 {
+    line-height: 40px;
+  }
+  .about-box main p {
+    width: 90%;
+  }
+  .skill-box {
+    width: 90%;
+  }
+  .about-box footer p {
+    font-size: 3em;
+  }
 }
 
 @media screen and (max-width: 700px) and (min-width: 400px) {
-    .about-box main {
-        top: 25%;
-        left: 20%;
-    }
-    .about-box main h1 {
-        line-height: 40px;
-    }
-    .about-box main p {
-        width: 90%;
-    }
-    .skill-box {
-        width: 90%;
-    }
+  .about-box main {
+    top: 25%;
+    left: 20%;
+  }
+  .about-box main h1 {
+    line-height: 40px;
+  }
+  .about-box main p {
+    width: 90%;
+  }
+  .skill-box {
+    width: 90%;
+  }
+  .about-box footer p {
+    font-size: 2em;
+  }
+  .about-box footer p {
+    font-size: 3em;
+  }
 }
 
 @media screen and (max-width: 399px) and (min-width: 380px) {
-    .about-box main {
-        top: 20%;
-    }
-    .skill-box {
-        width: 90%;
-    }
-    .about-box main h1 {
-        line-height: 40px;
-    }
-    .about-box main p {
-        width: 90%;
-    }
+  .about-box main {
+    top: 20%;
+  }
+  .skill-box {
+    width: 90%;
+  }
+  .about-box main h1 {
+    line-height: 40px;
+  }
+  .about-box main p {
+    width: 90%;
+  }
+  .about-box footer p {
+    font-size: 3em;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .about-box main {
-        top: 18%;
-    }
-    .skill-box {
-        width: 90%;
-    }
-    .about-box main h1 {
-        line-height: 40px;
-    }
-    .about-box main p {
-        width: 90%;
-    }
+  .about-box main {
+    top: 18%;
+    left: 20%;
+  }
+  .skill-box {
+    width: 90%;
+  }
+  .about-box main h1 {
+    line-height: 40px;
+  }
+  .about-box main p {
+    width: 90%;
+  }
+  .about-box footer p {
+    font-size: 3em;
+  }
 }
 
 @media screen and (max-width: 370px) and (min-width: 200px) {
-    .about-box main {
-        top: 10%;
-        left: 20%;
-    }
-    .about-box main h1 {
-        line-height: 40px;
-    }
-    .about-box main p {
-        width: 90%;
-    }
-    .skill-box {
-        width: 90%;
-    }
+  .about-box main {
+    top: 10%;
+    left: 20%;
+  }
+  .about-box main h1 {
+    line-height: 40px;
+  }
+  .about-box main p {
+    width: 90%;
+  }
+  .skill-box {
+    width: 90%;
+  }
+  .about-box footer p {
+    font-size: 3em;
+  }
 }
