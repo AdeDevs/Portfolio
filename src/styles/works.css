@@ -1,6 +1,5 @@
 .works-box {
     padding: 5px 20px;
-    overflow: hidden;
   }
   
  .works-box a {
@@ -33,9 +32,11 @@
   }
 
   .works-box main .sites {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     overflow-y: scroll;
+    overflow-x:hidden ;
+    box-sizing: border-box;
   }
 
   .works-box main .sites div {
@@ -88,7 +89,7 @@
 
 @media screen and (max-width: 1040px) and (min-width: 451px) {
     .works-box main {
-        overflow: hidden;
+        overflow: scroll;
         height: 83vh;
         top: 10%;
     }
@@ -102,12 +103,9 @@
 @media screen and (max-width: 450px) and (min-width: 380px) {
     .works-box main {
         top: 8%;
+        height: 85vh;
         left: 15%;
-        overflow: hidden;
-    }
-    .works-box main .sites {
-      height: 85vh;
-      overflow-x: scroll;
+        overflow: scroll;
     }
     .works-box footer p{
         font-size: 3em;
@@ -117,10 +115,8 @@
     .works-box main {
         top: 10%;
         left: 16%;
-    }
-    .works-box main .sites {
-      height: 83vh;
-      overflow-x: scroll;
+        height: 83vh;
+        overflow: scroll;
     }
     .works-box footer p {
         font-size: 2em;
@@ -131,18 +127,10 @@
         height: 80vh;
         left: 18%;
     }
-    .works-box main .sites {
-      height: 80vh;
-      overflow-x: scroll;
-    }
 }
 @media screen and (max-width: 540px) and (min-width: 539px) {
     .works-box main {
-    }
-
-    .works-box main .sites {
-      height: 81vh;
-      overflow-x: scroll;
+        height: 81vh;
     }
     .works-box footer p {
         font-size: 3em;
