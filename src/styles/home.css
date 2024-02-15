@@ -34,7 +34,7 @@
 
 @media (max-width: 740px) {
     .home-box main {
-        left: 30%;
+        left: 30%; 
         top: 45%;
     }
     .home-box main h1 {
