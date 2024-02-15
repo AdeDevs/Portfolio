@@ -45,18 +45,31 @@
     border: 1px solid grey;
     box-sizing: border-box;
     transition: 300ms;
+    background-image: url("../assets/mail.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+    background-position: 15px 13px;
+}
+
+#name {
+    background-image: url("../assets/signature.png");
 }
 
 .contact-box main form input:hover, .contact-box main form textarea:hover {
     border: 1px solid #000;
 }
 
-.contact-box main form input:focus, .contact-box main form textarea:focus{
+.contact-box main form input:focus, .contact-box main form textarea:focus, #name:focus{
     border: 2px solid #000;
+    background-image: none;
+    text-indent: 0;
 }
 
 .contact-box main form textarea {
     height: 200px;
+    background: none;
+    text-indent: 0;
 }
 
 .contact-box main form button {
