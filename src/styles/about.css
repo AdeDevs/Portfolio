@@ -43,8 +43,8 @@
 .skill-box .name {
     display: block;
     font-size: 10px;
-    font-weight: 600;
-    color: white;
+    font-family: "Poppins", sans-serif;
+    color: #000;
 }
 .skill-box .skill-bar {
     height: 5px;
@@ -99,10 +99,10 @@
     top: -28px;
     font-size: 9px;
     font-weight: 500;
-    color: black;
+    color: #fff;
     padding: 2px 6px;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: #000;
 }
 
 .about-box footer {
@@ -116,13 +116,83 @@
     font-family: 'Chakra Petch', sans-serif;
 }
 
-@media (max-width: 740px) {
+
+@media screen and (max-width: 1024px) and (min-width: 700px) {
     .about-box main {
-        top: 20%;
+        top: 27%;
         left: 20%;
     }
     .about-box main h1 {
         line-height: 40px;
+    }
+    .about-box main p {
+        width: 90%;
+    }
+    .skill-box {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 400px) {
+    .about-box main {
+        top: 25%;
+        left: 20%;
+    }
+    .about-box main h1 {
+        line-height: 40px;
+    }
+    .about-box main p {
+        width: 90%;
+    }
+    .skill-box {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 399px) and (min-width: 380px) {
+    .about-box main {
+        top: 20%;
+    }
+    .about-box main h1{
+        background-color: red;
+    } 
+    .skill-box {
+        width: 90%;
+    }
+    .about-box main h1 {
+        line-height: 40px;
+    }
+    .about-box main p {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about-box main {
+        top: 18%;
+    }
+    .about-box main h1{
+        background-color: green;
+    } 
+    .skill-box {
+        width: 90%;
+    }
+    .about-box main h1 {
+        line-height: 40px;
+    }
+    .about-box main p {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 370px) and (min-width: 200px) {
+    .about-box main {
+        top: 10%;
+        left: 20%;
+    }
+    .about-box main h1 {
+        line-height: 40px;
+        background-color: rebeccapurple;
     }
     .about-box main p {
         width: 90%;

@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Comfortaa&family=DM+Serif+Display&family=Montserrat&family=Poppins:wght@700&display=swap');
 
 .parent {
-    background-color: #000;
+    background-color: #fff;
     height: 100vh;
     box-sizing: border-box;
-    color: #fff;
+    color: #000;
     position: relative;
 }
 
@@ -20,7 +20,7 @@ a.active {
 }
 
 a {
-    color: #fff;
+    color: #000;
     text-decoration: underline 0.15em rgba(0, 0, 0, 0);
     text-underline-offset: 0.1em;
     transition: text-decoration-color 300ms, text-underline-offset 300ms;
