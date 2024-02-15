@@ -4,8 +4,7 @@ function AboutMe() {
       <main>
       <h1>i am a frontend developer</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore at
-            quidem doloremque consequuntur recusandae. Sint incidunt quidem.
+            I am Adeyemi Akinyemi and below and below is my repotoire with a visual representation of my mastery of each language
           </p>
           <div>
              <div className="testing-box">
