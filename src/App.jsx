@@ -8,6 +8,7 @@ import './styles/reset.css'
 import './styles/index.css'
 import './styles/home.css'
 import "./styles/about.css"
+import "./styles/contact.css"
 
 function App() {
 

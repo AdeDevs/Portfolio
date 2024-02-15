@@ -3,14 +3,9 @@
 
 .parent {
     background-color: #fff;
-    background-image: url(../assets/bgi.jpg);
     height: 100vh;
     box-sizing: border-box;
     color: #000;
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 
 .children{
@@ -143,5 +138,13 @@ ul {
     }
     #open-menu {
         display: block;
+    }
+}
+@media screen and (max-width: 370px) and (min-width: 200px) {
+    #navbar-mob ul {
+        font-size: 10px;
+    }
+    #close-menu {
+        width: 15px;
     }
 }
