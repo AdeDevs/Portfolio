@@ -153,9 +153,6 @@
     .about-box main {
         top: 20%;
     }
-    .about-box main h1{
-        background-color: red;
-    } 
     .skill-box {
         width: 90%;
     }
@@ -171,9 +168,6 @@
     .about-box main {
         top: 18%;
     }
-    .about-box main h1{
-        background-color: green;
-    } 
     .skill-box {
         width: 90%;
     }
@@ -192,7 +186,6 @@
     }
     .about-box main h1 {
         line-height: 40px;
-        background-color: rebeccapurple;
     }
     .about-box main p {
         width: 90%;
