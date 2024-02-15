@@ -42,8 +42,17 @@
     font-family: "Poppins", sans-serif;
     border-radius: 5px;
     margin: 10px auto;
-    border: 1px solid black;
+    border: 1px solid grey;
     box-sizing: border-box;
+    transition: 300ms;
+}
+
+.contact-box main form input:hover, .contact-box main form textarea:hover {
+    border: 1px solid #000;
+}
+
+.contact-box main form input:focus, .contact-box main form textarea:focus{
+    border: 2px solid #000;
 }
 
 .contact-box main form textarea {
@@ -57,10 +66,16 @@
     padding: 20px;
     font-family: "Poppins", sans-serif;
     border-radius: 5px;
-    border: 2px solid #000;
+    border: 1px solid #000;
     font-size: 15px;
     box-sizing: border-box;
     text-transform: uppercase;
+    transition: 300ms;
+}
+
+.contact-box main form button:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 .contact-box footer {
