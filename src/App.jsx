@@ -10,6 +10,8 @@ import './styles/home.css'
 import "./styles/about.css"
 import "./styles/contact.css"
 import "./styles/works.css"
+import "./styles/all.css"
+import AllWorks from "./sreens/allworks"
 
 function App() {
 
@@ -22,6 +24,7 @@ function App() {
           <Route path="/about" element={<AboutMe />} />
           <Route path="/works" element={<MyWorks />} />
           <Route path="/contact" element={<ContactMe />} />
+          <Route path="/allworks" element={<AllWorks />} />
         </Routes>
       </div>
     </div>

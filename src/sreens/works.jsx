@@ -1,7 +1,10 @@
+import { NavLink } from "react-router-dom";
+
 function MyWorks() {
   return (
     <div className="works-box">
       <main>
+            <h1><NavLink to="/allworks"> click here to see more</NavLink> </h1>
         <section className="sites">
           <div>
             <article>
