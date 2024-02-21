@@ -20,6 +20,8 @@
 }
 
   .works-box main {
+    height: 70vh;
+    overflow-y: scroll;
     position: fixed;
     top: 19%;
     left: 12%;
